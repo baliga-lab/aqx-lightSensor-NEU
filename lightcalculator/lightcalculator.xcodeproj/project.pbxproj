@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99490A1C1C6572A1004667BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99490A1B1C6572A1004667BA /* AppDelegate.swift */; };
+		99490A1E1C6572A1004667BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99490A1D1C6572A1004667BA /* ViewController.swift */; };
+		99490A211C6572A1004667BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99490A1F1C6572A1004667BA /* Main.storyboard */; };
+		99490A231C6572A1004667BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99490A221C6572A1004667BA /* Assets.xcassets */; };
+		99490A261C6572A1004667BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99490A241C6572A1004667BA /* LaunchScreen.storyboard */; };
+		99490A311C6572A2004667BA /* lightcalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99490A301C6572A2004667BA /* lightcalculatorTests.swift */; };
+		99490A3C1C6572A2004667BA /* lightcalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99490A3B1C6572A2004667BA /* lightcalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99490A2D1C6572A1004667BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99490A101C6572A1004667BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99490A171C6572A1004667BA;
+			remoteInfo = lightcalculator;
+		};
+		99490A381C6572A2004667BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99490A101C6572A1004667BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99490A171C6572A1004667BA;
+			remoteInfo = lightcalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99490A181C6572A1004667BA /* lightcalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lightcalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99490A1B1C6572A1004667BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99490A1D1C6572A1004667BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99490A201C6572A1004667BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99490A221C6572A1004667BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99490A251C6572A1004667BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99490A271C6572A1004667BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99490A2C1C6572A1004667BA /* lightcalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lightcalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99490A301C6572A2004667BA /* lightcalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lightcalculatorTests.swift; sourceTree = "<group>"; };
+		99490A321C6572A2004667BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99490A371C6572A2004667BA /* lightcalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lightcalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99490A3B1C6572A2004667BA /* lightcalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lightcalculatorUITests.swift; sourceTree = "<group>"; };
+		99490A3D1C6572A2004667BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99490A151C6572A1004667BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99490A291C6572A1004667BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99490A341C6572A2004667BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99490A0F1C6572A1004667BA = {
+			isa = PBXGroup;
+			children = (
+				99490A1A1C6572A1004667BA /* lightcalculator */,
+				99490A2F1C6572A2004667BA /* lightcalculatorTests */,
+				99490A3A1C6572A2004667BA /* lightcalculatorUITests */,
+				99490A191C6572A1004667BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99490A191C6572A1004667BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99490A181C6572A1004667BA /* lightcalculator.app */,
+				99490A2C1C6572A1004667BA /* lightcalculatorTests.xctest */,
+				99490A371C6572A2004667BA /* lightcalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99490A1A1C6572A1004667BA /* lightcalculator */ = {
+			isa = PBXGroup;
+			children = (
+				99490A1B1C6572A1004667BA /* AppDelegate.swift */,
+				99490A1D1C6572A1004667BA /* ViewController.swift */,
+				99490A1F1C6572A1004667BA /* Main.storyboard */,
+				99490A221C6572A1004667BA /* Assets.xcassets */,
+				99490A241C6572A1004667BA /* LaunchScreen.storyboard */,
+				99490A271C6572A1004667BA /* Info.plist */,
+			);
+			path = lightcalculator;
+			sourceTree = "<group>";
+		};
+		99490A2F1C6572A2004667BA /* lightcalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				99490A301C6572A2004667BA /* lightcalculatorTests.swift */,
+				99490A321C6572A2004667BA /* Info.plist */,
+			);
+			path = lightcalculatorTests;
+			sourceTree = "<group>";
+		};
+		99490A3A1C6572A2004667BA /* lightcalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99490A3B1C6572A2004667BA /* lightcalculatorUITests.swift */,
+				99490A3D1C6572A2004667BA /* Info.plist */,
+			);
+			path = lightcalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99490A171C6572A1004667BA /* lightcalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99490A401C6572A2004667BA /* Build configuration list for PBXNativeTarget "lightcalculator" */;
+			buildPhases = (
+				99490A141C6572A1004667BA /* Sources */,
+				99490A151C6572A1004667BA /* Frameworks */,
+				99490A161C6572A1004667BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lightcalculator;
+			productName = lightcalculator;
+			productReference = 99490A181C6572A1004667BA /* lightcalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99490A2B1C6572A1004667BA /* lightcalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99490A431C6572A2004667BA /* Build configuration list for PBXNativeTarget "lightcalculatorTests" */;
+			buildPhases = (
+				99490A281C6572A1004667BA /* Sources */,
+				99490A291C6572A1004667BA /* Frameworks */,
+				99490A2A1C6572A1004667BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99490A2E1C6572A1004667BA /* PBXTargetDependency */,
+			);
+			name = lightcalculatorTests;
+			productName = lightcalculatorTests;
+			productReference = 99490A2C1C6572A1004667BA /* lightcalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99490A361C6572A2004667BA /* lightcalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99490A461C6572A2004667BA /* Build configuration list for PBXNativeTarget "lightcalculatorUITests" */;
+			buildPhases = (
+				99490A331C6572A2004667BA /* Sources */,
+				99490A341C6572A2004667BA /* Frameworks */,
+				99490A351C6572A2004667BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99490A391C6572A2004667BA /* PBXTargetDependency */,
+			);
+			name = lightcalculatorUITests;
+			productName = lightcalculatorUITests;
+			productReference = 99490A371C6572A2004667BA /* lightcalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99490A101C6572A1004667BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = priyankanahar;
+				TargetAttributes = {
+					99490A171C6572A1004667BA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5YK7NYAP87;
+					};
+					99490A2B1C6572A1004667BA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5YK7NYAP87;
+						TestTargetID = 99490A171C6572A1004667BA;
+					};
+					99490A361C6572A2004667BA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5YK7NYAP87;
+						TestTargetID = 99490A171C6572A1004667BA;
+					};
+				};
+			};
+			buildConfigurationList = 99490A131C6572A1004667BA /* Build configuration list for PBXProject "lightcalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99490A0F1C6572A1004667BA;
+			productRefGroup = 99490A191C6572A1004667BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99490A171C6572A1004667BA /* lightcalculator */,
+				99490A2B1C6572A1004667BA /* lightcalculatorTests */,
+				99490A361C6572A2004667BA /* lightcalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99490A161C6572A1004667BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99490A261C6572A1004667BA /* LaunchScreen.storyboard in Resources */,
+				99490A231C6572A1004667BA /* Assets.xcassets in Resources */,
+				99490A211C6572A1004667BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99490A2A1C6572A1004667BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99490A351C6572A2004667BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99490A141C6572A1004667BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99490A1E1C6572A1004667BA /* ViewController.swift in Sources */,
+				99490A1C1C6572A1004667BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99490A281C6572A1004667BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99490A311C6572A2004667BA /* lightcalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99490A331C6572A2004667BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99490A3C1C6572A2004667BA /* lightcalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99490A2E1C6572A1004667BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99490A171C6572A1004667BA /* lightcalculator */;
+			targetProxy = 99490A2D1C6572A1004667BA /* PBXContainerItemProxy */;
+		};
+		99490A391C6572A2004667BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99490A171C6572A1004667BA /* lightcalculator */;
+			targetProxy = 99490A381C6572A2004667BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99490A1F1C6572A1004667BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99490A201C6572A1004667BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99490A241C6572A1004667BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99490A251C6572A1004667BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99490A3E1C6572A2004667BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99490A3F1C6572A2004667BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99490A411C6572A2004667BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = lightcalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-priyankanahar.lightcalculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		99490A421C6572A2004667BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = lightcalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-priyankanahar.lightcalculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		99490A441C6572A2004667BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = lightcalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-priyankanahar.lightcalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lightcalculator.app/lightcalculator";
+			};
+			name = Debug;
+		};
+		99490A451C6572A2004667BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = lightcalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-priyankanahar.lightcalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lightcalculator.app/lightcalculator";
+			};
+			name = Release;
+		};
+		99490A471C6572A2004667BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = lightcalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-priyankanahar.lightcalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = lightcalculator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		99490A481C6572A2004667BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = lightcalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-priyankanahar.lightcalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = lightcalculator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99490A131C6572A1004667BA /* Build configuration list for PBXProject "lightcalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99490A3E1C6572A2004667BA /* Debug */,
+				99490A3F1C6572A2004667BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99490A401C6572A2004667BA /* Build configuration list for PBXNativeTarget "lightcalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99490A411C6572A2004667BA /* Debug */,
+				99490A421C6572A2004667BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99490A431C6572A2004667BA /* Build configuration list for PBXNativeTarget "lightcalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99490A441C6572A2004667BA /* Debug */,
+				99490A451C6572A2004667BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99490A461C6572A2004667BA /* Build configuration list for PBXNativeTarget "lightcalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99490A471C6572A2004667BA /* Debug */,
+				99490A481C6572A2004667BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99490A101C6572A1004667BA /* Project object */;
+}

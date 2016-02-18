@@ -11,7 +11,7 @@ import UIKit
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate,
 UINavigationControllerDelegate{
-
+    
     @IBOutlet weak var hiddenLabel: UILabel!
     
     var grayScaleImage: UIImage = UIImage();
@@ -34,7 +34,7 @@ UINavigationControllerDelegate{
     @IBAction func takePhotoButton(sender: AnyObject) {
         if(!UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.Camera)) {
             hiddenLabel.text = "No Camera Detected";
-        return
+            return
         }
         hiddenLabel.text = "";
         let myPickerController = UIImagePickerController();
@@ -49,12 +49,12 @@ UINavigationControllerDelegate{
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-        
+    
     func imagePickerController(picker: UIImagePickerController,
         didFinishPickingMediaWithInfo info: [String : AnyObject]){
             myImageView.image = info[UIImagePickerControllerOriginalImage] as? UIImage;
@@ -78,6 +78,6 @@ UINavigationControllerDelegate{
         
         return newImage
     }
-
+    
 }
 

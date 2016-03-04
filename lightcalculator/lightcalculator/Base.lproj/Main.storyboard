@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,18 +18,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CLICK !" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wqZ-kF-pjL">
-                                <rect key="frame" x="29" y="65" width="261" height="44"/>
-                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="50"/>
-                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <color key="shadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="93" y="70" width="261" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S8D-No-dds">
+                                <rect key="frame" x="20" y="202" width="165" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="LPB-oK-uCi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="19"/>
+                                <state key="normal" title="Select photo"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="115" y="275" width="170" height="40"/>
                                 </variation>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Por-cX-OfW">
-                                <rect key="frame" x="43" y="268" width="304" height="177"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="216" y="159" width="150" height="35"/>
+                                </variation>
+                                <connections>
+                                    <action selector="selectPhotoButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z8J-11-xor"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Por-cX-OfW">
+                                <rect key="frame" x="20" y="264" width="560" height="216"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="49" y="338" width="303" height="235"/>
                                 </variation>
@@ -36,18 +45,41 @@
                                     <rect key="frame" x="64" y="327" width="279" height="206"/>
                                 </variation>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Take a picture of your light source." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZnL-dR-bRn">
-                                <rect key="frame" x="29" y="117" width="395" height="28"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lw5-Ny-ZZa">
+                                <rect key="frame" x="224" y="501" width="153" height="46"/>
+                                <color key="backgroundColor" red="1" green="0.983520936313934" blue="0.33166294388216355" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="JxM-lt-Yv5"/>
+                                    <constraint firstAttribute="width" constant="153" id="pIA-n6-dNg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="20"/>
+                                <state key="normal" title="Calculate">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="131" y="237" width="124" height="37"/>
+                                </variation>
+                                <connections>
+                                    <action selector="uploadButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e24-xt-ZVT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take a picture of your light source." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZnL-dR-bRn">
+                                <rect key="frame" x="20" y="88" width="368" height="20"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="7" y="114" width="373" height="27"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rhb-1G-sZD">
-                                <rect key="frame" x="20" y="146" width="170" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rhb-1G-sZD">
+                                <rect key="frame" x="20" y="136" width="165" height="35"/>
                                 <color key="backgroundColor" red="1" green="0.48949007867185135" blue="0.041347854750496738" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="165" id="T9N-as-wmF"/>
+                                    <constraint firstAttribute="height" constant="35" id="nn6-M0-VAf"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="19"/>
                                 <state key="normal" title="Take a photo">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -62,73 +94,43 @@
                                     <action selector="takePhotoButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QOh-Pq-I1I"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lw5-Ny-ZZa">
-                                <rect key="frame" x="141" y="209" width="124" height="37"/>
-                                <color key="backgroundColor" red="1" green="0.983520936313934" blue="0.33166294388216355" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="20"/>
-                                <state key="normal" title="Upload">
-                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="131" y="237" width="124" height="37"/>
-                                </variation>
-                                <connections>
-                                    <action selector="uploadButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e24-xt-ZVT"/>
-                                </connections>
-                            </button>
-                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="y0e-JX-eeN">
-                                <rect key="frame" x="170" y="331" width="37" height="37"/>
-                                <color key="color" red="1" green="0.60376225707541242" blue="0.31318010222108261" alpha="1" colorSpace="calibratedRGB"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="175" y="426" width="37" height="37"/>
-                                </variation>
-                            </activityIndicatorView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S8D-No-dds">
-                                <rect key="frame" x="227" y="146" width="170" height="40"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="19"/>
-                                <state key="normal" title="Select photo"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="115" y="275" width="170" height="40"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="216" y="159" width="150" height="35"/>
-                                </variation>
-                                <connections>
-                                    <action selector="selectPhotoButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z8J-11-xor"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b1U-bS-eBx">
-                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CLICK !" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wqZ-kF-pjL">
+                                <rect key="frame" x="20" y="20" width="211" height="58"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="50"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="79" y="289" width="228" height="30"/>
+                                    <rect key="frame" x="93" y="70" width="261" height="44"/>
                                 </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.25278040811477615" green="0.95478157722513091" blue="0.82971038099599115" alpha="1" colorSpace="calibratedRGB"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="b1U-bS-eBx"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="b1U-bS-eBx"/>
-                            </mask>
-                        </variation>
+                        <constraints>
+                            <constraint firstItem="Por-cX-OfW" firstAttribute="top" secondItem="S8D-No-dds" secondAttribute="bottom" constant="27" id="0xy-zm-hBy"/>
+                            <constraint firstItem="rhb-1G-sZD" firstAttribute="leading" secondItem="S8D-No-dds" secondAttribute="leading" id="1HW-eg-NG8"/>
+                            <constraint firstItem="ZnL-dR-bRn" firstAttribute="leading" secondItem="rhb-1G-sZD" secondAttribute="leading" id="2BP-jX-abS"/>
+                            <constraint firstItem="S8D-No-dds" firstAttribute="top" secondItem="rhb-1G-sZD" secondAttribute="bottom" constant="31" id="3VI-tF-5cu"/>
+                            <constraint firstItem="S8D-No-dds" firstAttribute="trailing" secondItem="rhb-1G-sZD" secondAttribute="trailing" id="Bt9-UP-VyS"/>
+                            <constraint firstItem="ZnL-dR-bRn" firstAttribute="leading" secondItem="wqZ-kF-pjL" secondAttribute="leading" id="GvL-cX-qxY"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Lw5-Ny-ZZa" secondAttribute="bottom" constant="53" id="LRm-CR-TBN"/>
+                            <constraint firstItem="ZnL-dR-bRn" firstAttribute="top" secondItem="wqZ-kF-pjL" secondAttribute="bottom" constant="10" id="P5Q-PV-0o5"/>
+                            <constraint firstItem="Por-cX-OfW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="PIv-Zw-ePV"/>
+                            <constraint firstItem="S8D-No-dds" firstAttribute="leading" secondItem="Por-cX-OfW" secondAttribute="leading" id="V6A-du-1Mm"/>
+                            <constraint firstItem="rhb-1G-sZD" firstAttribute="top" secondItem="ZnL-dR-bRn" secondAttribute="bottom" constant="28" id="fBx-Tx-ecP"/>
+                            <constraint firstItem="Por-cX-OfW" firstAttribute="centerX" secondItem="Lw5-Ny-ZZa" secondAttribute="centerX" id="lzv-Oz-Pqa"/>
+                            <constraint firstItem="Por-cX-OfW" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="nzh-7g-NZR"/>
+                            <constraint firstItem="wqZ-kF-pjL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="s9W-3O-wft"/>
+                            <constraint firstItem="Lw5-Ny-ZZa" firstAttribute="top" secondItem="Por-cX-OfW" secondAttribute="bottom" constant="21" id="xwD-gh-7hU"/>
+                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="hiddenLabel" destination="b1U-bS-eBx" id="APd-Ne-pyZ"/>
                         <outlet property="myImageView" destination="Por-cX-OfW" id="l51-06-8Dy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="453" y="387.75"/>
+            <point key="canvasLocation" x="246" y="434"/>
         </scene>
     </scenes>
 </document>
